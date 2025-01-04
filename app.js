@@ -8,7 +8,7 @@ const app = express()
 const port = 8000
 
 app.get('/', (req, res) => {
-    res.send('руддщ')
+    res.send('изменения для теста')
 })
 
 app.listen(port, () => console.log(`сервер работает на порту ${port} `))
